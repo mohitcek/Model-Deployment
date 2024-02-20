@@ -7,7 +7,7 @@ class TestApp(unittest.TestCase):
 
     def test_model_prediction(self):
         """Test return backwards simple string"""
-        new_prediction = model_prediction('figures/test_image.png')
+        new_prediction = model_prediction('test_image.jpg')
         correct_prediction = 0
         self.assertEqual(correct_prediction, new_prediction)
 
